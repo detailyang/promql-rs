@@ -8,7 +8,7 @@ promql = {git = "https://github.com/detailyang/promql-rs.git", branch = "main"}
 
 # Example
 ```rust
-    let ast = promql::parse_expr("min_over_time(rate(http_requests_total[5m])[30m:1m])").unwarp();
+    let (_, ast) = promql::parse_expr("min_over_time(rate(http_requests_total[5m])[30m:1m])").unwarp();
     println("ast: {:?}", ast);
 ```
 
