@@ -3,7 +3,7 @@
 
 # Install
 ```toml
-promql = {git = "https://github.com/detailyang/promql-rs.git", branch = "master"}
+promql = {git = "https://github.com/detailyang/promql-rs.git", branch = "main"}
 ```
 
 # Example
